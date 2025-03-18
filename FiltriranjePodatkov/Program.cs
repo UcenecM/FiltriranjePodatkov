@@ -95,7 +95,7 @@ namespace FiltriranjePodatkov
                 }
             }
 
-            // Zmanjšamo tabelo na dejansko število filtriranih zapisov
+            // Zmanjšamo tabelo na dejansko število filtriranih zapisov, iz 13 na toliko kot imamo rezultatov
             int[] rezultat = new int[števecFiltriranih]; //Ustvari tabelo z dolžino dejanskih filtriranih zapisov
             Array.Copy(filtriraniIndeksi, rezultat, števecFiltriranih);//Metoda Array.Copy kopira elemente iz ene tabele v drugo, s določenim ševilom 
             return rezultat; //vrnimo tabelo rezultat v main 
